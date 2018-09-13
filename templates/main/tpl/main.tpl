@@ -105,9 +105,9 @@
             <div class="socpanel">[PANEL_SOCBUTTON]</div>
         </div>
         <div class="clr"></div>
-        <div class="line-white"><img src='[IMAGE_DIR]2x2.gif' alt=''></div>
-        <div class="line-gray"><img src='[IMAGE_DIR]2x2.gif' alt=''></div>
-        <div class="line-white"><img src='[IMAGE_DIR]2x2.gif' alt=''></div>
+        <div class="line-white"></div>
+        <div class="line-gray"></div>
+        <div class="line-white"></div>
         <div class="ad"></div>
         <div class="copyrightwrapper">
             <div class="stat">
