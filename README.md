@@ -1,0 +1,2 @@
+# newfavorite.loc
+newfaforite
