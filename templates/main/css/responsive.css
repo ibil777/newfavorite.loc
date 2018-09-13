@@ -1,0 +1,12 @@
+@media screen and (max-width: 1700px) {
+
+}
+@media screen and (max-width: 1200px) {
+    .page { width: 970px; }
+}
+@media screen and (max-width: 992px) {
+    .page { width: 750px; }
+}
+@media screen and (max-width: 768px) {
+    .page { width: auto; }
+}

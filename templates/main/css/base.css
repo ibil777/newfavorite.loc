@@ -1,0 +1,157 @@
+/* Utilites
+------------------------------ */
+
+* { margin: 0; padding: 0; }
+
+*:focus { outline: none; }
+.hidden { display: none; }
+.show { display: block!important; }
+.no-margin { margin: 0!important; }
+.no-padding { padding: 0!important; }
+.no-bg { background: none!important; }
+.no-border, a img { border: none!important; }
+.container:after, .columns:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.cc { clear: both; }
+.rel { position: relative; }
+.oh { overflow: hidden; }
+.oa { overflow: auto; }
+.ib { display: inline-block; }
+.bg-red { background: #FF0000; }
+.text-red { color: #FF0000; }
+.bottom-space { margin-bottom: 5px; }
+.bottom-line { margin-bottom: 20px; padding-bottom: 20px; border-bottom: 2px solid #77BF3B; }
+.large { font-size: 1.3em; }
+.small { font-size: .7em; }
+ul.nav { list-style: none; margin: 0; }
+
+.videodetector { position: relative; width: 100%; height: 0; padding-bottom: 60%; margin-bottom: 10px; }
+.videodetector iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+
+/* Main styles
+------------------------------ */
+
+html { min-height: 100%; }
+body { min-height: 100%; } /* body height 100% */
+
+/* Content elements
+------------------------------ */
+
+.content h1, .content h2, .content h3, .content h4 { }
+.content h1, .h1 { font-family: Artemius_SN_TT; color: #383838; font-size: 30px; }
+.content h2, .h2 { font-family: Artemius_SN_TT; color: #000; font-size: 22px; }
+.content h3 { font-size: 17px; font-weight: bold; }
+.content h4 { font-size: 1.1em; font-weight: bold; }
+
+blockquote { margin-left: 5em; padding-left: 1em; }
+code, pre { font: 1.2em/1 "Courier New", Courier, monospace; padding: 1px 2px; background: #eee; }
+pre { border: 1px dashed #aaa; line-height: 1.7em; padding: 5px; font-size: .9em; background: #eee; margin: 0; }
+strong {  }
+em {  }
+sup, sub { vertical-align: baseline; position: relative; }
+sup { top: -0.4em; }
+sub { bottom: -0.3em; }
+
+hr { color: #ccc; background-color: #ccc; height: 1px; border-width: 0px; }
+
+.em { font-style: italic; }
+.strong { font-weight: bold; }
+
+.content ul, .content ol { margin-left: 3em; line-height: 1.3em; }
+.content ul li, .content ol li { margin-bottom: .2em; }
+
+.content dl {  }
+.content dl dt { margin-bottom: .2em; font-weight: bold; }
+.content dl dd { padding-left: 5em; margin-bottom: .4em; }
+
+.content p, .content ul, .content ol, .content dl, .content table, blockquote, pre, .columns, hr { margin-bottom: 25px; }
+
+.box { margin: 20px; }
+
+/* Text align, float
+------------------------------ */
+
+.a-left { text-align: left; }
+.a-center { text-align: center; }
+.a-right { text-align: right; }
+
+.f-left { float: left; }
+.f-right { float: right; }
+
+/*	Tables
+------------------------------ */
+
+table { border-collapse: collapse; }
+
+/*	Columns
+------------------------------ */
+
+.w-5 { width: 5%; }
+.w-10 { width: 10%; }
+.w-15 { width: 15%; }
+.w-20 { width: 20%; }
+.w-25 { width: 25%; }
+.w-30 { width: 30%; }
+.w-35 { width: 35%; }
+.w-40 { width: 40%; }
+.w-45 { width: 45%; }
+.w-50 { width: 50%; }
+.w-55 { width: 55%; }
+.w-60 { width: 60%; }
+.w-65 { width: 65%; }
+.w-70 { width: 70%; }
+.w-75 { width: 75%; }
+.w-80 { width: 80%; }
+.w-85 { width: 85%; }
+.w-90 { width: 90%; }
+.w-95 { width: 95%; }
+.w-100 { width: 100%; }
+
+.w-33 { width: 33%; }
+.w-66 { width: 66%; }
+
+.w-38 { width: 38%; }
+.w-62 { width: 62%; }
+
+.w-25px { width: 25px; }
+.w-50px { width: 50px; }
+.w-60px { width: 60px; }
+.w-75px { width: 75px; }
+.w-100px { width: 100px; }
+.w-125px { width: 125px; }
+.w-150px { width: 150px; }
+.w-175px { width: 175px; }
+.w-200px { width: 200px; }
+.w-250px { width: 250px; }
+.w-300px { width: 300px; }
+.w-350px { width: 350px; }
+.w-400px { width: 400px; }
+.w-450px { width: 450px; }
+.w-500px { width: 500px; }
+.w-550px { width: 550px; }
+.w-600px { width: 600px; }
+.w-650px { width: 650px; }
+.w-700px { width: 700px; }
+
+.mb-5 { margin-bottom: 5px; }
+.mb-10 { margin-bottom: 10px; }
+.mb-15 { margin-bottom: 15px; }
+.mb-20 { margin-bottom: 20px; }
+.mb-25 { margin-bottom: 25px; }
+.mb-30 { margin-bottom: 30px; }
+.mb-40 { margin-bottom: 40px; }
+.mb-50 { margin-bottom: 50px; }
+
+/* Images
+------------------------------ */
+
+.content img { }
+
+/* Content Form
+------------------------------ */
+
+/* Inputs
+------------------------------ */
+
+.button { width: auto; cursor: pointer; }
+.systemErr { position: absolute; left: 20px; top: 20px; background: #fff; padding: 20px; border: 1px solid #f00; border-radius: 5px;
+    font-size: 14px;  z-index: 100000; }

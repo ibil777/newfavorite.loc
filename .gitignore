@@ -1,0 +1,16 @@
+
+!backup/
+.htaccess
+.idea/inspectionProfiles/
+.idea/modules.xml
+.idea/newfavorite.loc.iml
+.idea/watcherTasks.xml
+.idea/workspace.xml
+1.php
+bots/
+data/
+files/
+jpadmin/
+jped/
+nf.ico
+templates/admin/
