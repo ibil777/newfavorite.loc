@@ -4,7 +4,6 @@
     <meta charset=utf-8>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name=author content='Design and conceptual - Igor Boychenko, ibil.com.ua'>
-    <meta name='programming' content='Jaroslav Poleschuk, www.webpro.cimis.com.ua'>
     <meta name='description' content='[DESCRIPTION]'>
     <meta name='keywords' content='[KEYWORDS]'>
     <link href='[BASE_HREF]/[TPL_DIR]css/bootstrap.min.css' rel='stylesheet' type='text/css'>
@@ -30,7 +29,7 @@
                 mouseDrag: false,
                 singleItem: true,
                 dots: true,
-                nav: false,
+                nav: false
             });
 
             [ONLOAD]
@@ -53,7 +52,7 @@
                 <div class="col-12 col-md-6">
                     <div class="row justify-content-end">
                         <div class="calendar">
-                                <script src='templates/main/js/calendar.js'></script>
+                            <script src='/templates/main/js/calendar.js'></script>
                         </div>
                     </div>
                     <div class="row justify-content-end">
